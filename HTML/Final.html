@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Document</title>
+<style>
+    a{
+        color:grey;
+        font-size: 20px;
+    }
+    a:hover{
+            color: rgb(32, 165, 242);
+        }
+  header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+
+  }
+  .content {
+    text-align: center; 
+    padding: 50px 20px; 
+  }
+
+  .signup-button {
+    background-color: #1976D2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .signup-button:hover{
+    background-color: black;
+    border-radius: 100px;
+  }
+  .hamburger{
+    display: inline-block;
+    cursor: pointer;
+  }
+  .bar{
+    width: 25px;height: 3px;background-color: black;margin: 5px 0;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <span>
+        <img src="https://zerodha.com/static/images/logo.svg" alt="zero" width="150px" height="20px">
+    </span>
+  </div>
+  <div style="display: flex;align-items: center;justify-content: center;flex-direction:row;gap: 50px;">
+
+    <a href="https://zerodha.com/open-account/">Signup</a>
+    <a href="https://zerodha.com/about/">About</a>
+    <a href="https://zerodha.com/products/">Products</a>
+    <a href="https://zerodha.com/pricing/">Pricing</a>
+    <a href="https://support.zerodha.com/">Support</a>
+  <div class="hamburger">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+  </div>
+</header>
+
+<div class="content">
+  <img src="https://zerodha.com/static/images/landing.png" alt="Zerodha Dashboard" style="width:800px;height: 400px;"> 
+  <h1>Invest in everything</h1>
+  <p>Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.</p>
+  <button class="signup-button">Sign up for free</button>
+</div>
+
+</body>
+</html>

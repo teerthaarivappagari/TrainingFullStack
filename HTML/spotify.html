@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mobile Web Page Example</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 10px; /* Reduced padding for mobile */
+    background-color: #f0f0f0;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column; /* Stack header elements vertically */
+    align-items: center; /* Center items in mobile view */
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .header-left, .header-right {
+    display: flex;
+    justify-content: center; /* Center items in mobile view */
+    align-items: center;
+    width: 100%; /* Take full width */
+    margin-bottom: 5px; /* Add spacing between header sections */
+  }
+
+  .header-right a {
+    margin: 0 5px; /* Adjust spacing for mobile */
+    text-decoration: none;
+    color: #333;
+  }
+
+  .popular-artists, .popular-albums {
+    margin-top: 10px; /* Reduced margin for mobile */
+    background-color: white;
+    padding: 10px; /* Reduced padding for mobile */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .artists-list, .albums-list {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items to the next line on smaller screens */
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+  .artist-item, .album-item {
+    text-align: center;
+    width: 45%; /* Adjust width for mobile layout */
+    margin-bottom: 10px; /* Add spacing between items */
+  }
+
+  .album-item img {
+    max-width: 80px; /* Reduced image size for mobile */
+    height: auto;
+  }
+
+  .album-item p, .artist-item p{
+    margin-top: 5px;
+    font-size: 0.8em; /* smaller font for mobile*/
+  }
+
+  .footer{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.8em;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <span>Premium Support</span>
+    <span>Download</span>
+  </div>
+  <div class="header-right">
+    <span>Install App</span>
+    <a href="#">Sign up</a>
+    <a href="#">Log in</a>
+  </div>
+</div>
+
+<div class="popular-artists">
+  <h2>Popular Artists</h2>
+  <div class="artists-list">
+    <div class="artist-item">
+      <p>Arijit Singh</p>
+      <p>Artist</p>
+    </div>
+    <div class="artist-item">
+      <p>A.R. Rahman</p>
+      <p>Artist</p>
+    </div>
+    <div class="artist-item">
+      <p>Sachin-Jigar</p>
+      <p>Artist</p>
+    </div>
+    <div class="artist-item">
+      <p>Vishal-Shekhar</p>
+      <p>Artist</p>
+    </div>
+    <div class="artist-item">
+      <p>Atif As</p>
+      <p>Artist</p>
+    </div>
+  </div>
+</div>
+
+<div class="popular-albums">
+  <h2>Popular Albums and Singles</h2>
+  <div class="albums-list">
+    <div class="album-item">
+      <img src="placeholder-album.jpg" alt="Aashioni">
+      <p>Aashioni</p>
+    </div>
+    <div class="album-item">
+      <img src="placeholder-album.jpg" alt="UTV DEEWANI">
+      <p>UTV DEEWANI</p>
+    </div>
+    <div class="album-item">
+      <img src="placeholder-album.jpg" alt="KUMEN MUSE">
+      <p>KUMEN MUSE</p>
+    </div>
+    <div class="album-item">
+      <img src="placeholder-album.jpg" alt="Kasam">
+      <p>Kasam</p>
+    </div>
+    <div class="album-item">
+      <img src="placeholder-album.jpg" alt="Glory">
+      <p>Glory</p>
+    </div>
+    <div class="album-item">
+      <img src="placeholder-album.jpg" alt="Yeh Jawaani Hal">
+      <p>Yeh Jawaani Hal</p>
+    </div>
+    <div class="album-item">
+      <img src="placeholder-album.jpg" alt="Glory">
+      <p>Glory</p>
+    </div>
+    <div class="album-item">
+      <img src="placeholder-album.jpg" alt="Who (Remixes)">
+      <p>Who (Remixes)</p>
+    </div>
+    <div class="album-item">
+      <img src="placeholder-album.jpg" alt="M
